@@ -17,7 +17,7 @@
             <h2>Today is <?php echo date('l, F j, Y'); ?></h2>
         </div>
     </header>
-    <nav class="top-bar" data-topbar role="navigation">
+    <nav class="top-bar" data-topbar role="navigation">gi
         <ul class="title-area">
             <li class="name">
                 <h1><a href="#">My Site</a></h1>
