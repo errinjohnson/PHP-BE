@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Developers Project Manager</title>
-    <link rel="stylesheet" href="5.5.2_foundation/css/foundation.css" />
+    <link rel="stylesheet" href="foundation/css/foundation.css" />
     <link rel="stylesheet" href="foundation-icons/foundation-icons.css" />
     <link rel="stylesheet" href="myCss/application.css" type="text/css" />
     <?php date_default_timezone_set( 'EST');?>
@@ -47,7 +47,6 @@
             <ul class="left">
                 <li><a href="#">Left Nav Button</a>
                 </li>
-                <li class="divider"></li>
                 <li class="has-form">
                     <div class="row collapse">
                         <div class="large-8 small-9 columns">
@@ -82,14 +81,12 @@
     </footer>
     <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
     <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script src="5.5.2_foundation/js/vendor/jquery.js"></script>
-    <script src="5.5.2_foundation/js/foundation.min.js"></script>
-    <script src="5.5.2_foundation/js/foundation/foundation.dropdown.js"></script>
-    <script src="5.5.2_foundation/js/foundation/foundation.topbar.js"></script>
-    <script src="5.5.2_foundation/js/foundation/foundation.reveal.js"></script>
+    <script src="foundation/js/vendor_js/jquery.js"></script>
+    <script src="foundation/js/foundation_js/foundation.min.js"></script>
+    <script src="foundation/js/foundation_js/foundation.dropdown.js"></script>
+    <script src="foundation/js/foundation_js/foundation.topbar.js"></script>
+    <script src="foundation/js/foundation_js/foundation.reveal.js"></script>
     <!--script src="animsition/animsition-master/dist/js/jquery.animsition.min.js"></script -->
-    <!-- vendor js -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- animsition js -->
     <!--cript src="#"></script -->
 
