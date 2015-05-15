@@ -1,0 +1,99 @@
+$Amethyst: #9966CC;
+$ClayAsh: #BDC8B3;
+$Cameo: #D9B99B;
+$BrownDerby: #492615;
+$BrickRed: #C62D42;
+$BreakerBay: #5DA19F;
+$Casper: #ADBED1;
+$Cognac: #9F381D;
+$EggPlant: #614051;
+$Japonica: #D87C63;
+$Black: #080110;
+$PearlBush: #FFFDF4;
+$RedClay: #DA6A41;
+$Terracotta: #A62F20;
+$SanquineBrown: #8D3D38;
+$SantaFe: #B16D52;
+$Spice: #6A442E;
+/**Functional color variables **/
+
+$color-text-light: $PearlBush;
+$color-text-dark: $Spice;
+$color-text-base: $Black;
+$color-shadow: 10px 10px 10px 6px #333;
+$color-blend: linear-gradient(45deg,
+$PearlBush,
+$RedClay,
+transparent 100%);
+$color-body: $color-blend;
+$border-color: $Japonica;
+//Color Palette Modifiers - creating maps- use map-get()
+$palettes: ( amethyst: ( xx-light: lighten($Amethyst,
+43%),
+x-light: lighten($Amethyst,
+35%),
+light: lighten($Amethyst,
+12%),
+base: $Amethyst,
+dark: darken($Amethyst,
+8%),
+x-dark: darken($Amethyst,
+16%),
+),
+spice: ( light: lighten($Spice,
+10%),
+base: $Spice,
+dark: darken($Spice,
+10%)));
+//UI Colors  -created map
+$ui-colors: ( default: $SantaFe,
+success: $BreakerBay,
+error: $BrickRed,
+warning: $RedClay,
+info: $Amethyst,
+);
+//Link Stack
+$link-url--juiceplus: "http://www.juiceplus.com/+ej70269";
+//Font Stack
+$font-url--google: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300italic|Arvo|Tangerine';
+$stack-sans-serif: 'Source Sans Pro',
+sans-serif;
+$stack-Arvo: 'Arvo',
+$stack-sans-serif;
+$stack-Tangerine: 'Tangerine',
+$stack-sans-serif;
+$font-weight--thin: 100;
+$font-weight--light: 300;
+$font-weight--medium: 400;
+$font-weight--bold: 700;
+$font-weight--ultr-bold: 900;
+//Border radius
+//Asset paths #{path-img} #{path-font},Interpolation: #{}
+$path-img: '../img';
+$path-font: '../fonts';
+//Media query breakpoints
+$brk-narrow: '(max-width: 768px)';
+$brk-wide: '(max-width: 1024px)';
+// Text
+$base__font-size: 16px;
+$base__line: 24px;
+//** Descriptive color variables Examples
+//$white          : #fff;
+//$black          : #000;
+//$grey           : #878787;
+//$regent-st-blue : #add8e6;
+//$river-bed      : #48525c;
+//$yellow-orange  : #ffa949;
+// Functional color variables
+//$color-prim         : $yellow-orange;
+//$color-sec          : $river-bed;
+//$color-text-light   : $white;
+//$color-text-base    : $grey;
+//$color-text-dark    : $river-bed;
+//$color-border-light : lighten($grey, 35%);
+//$color-border-dark  : $yellow-orange;
+//$color-link-default : $yellow-orange;
+//$color-link-visited : $regent-st-blue;
+//$color-shadow       : rgba($black,.8);
+//$color-body         : $white;//
+//**/
