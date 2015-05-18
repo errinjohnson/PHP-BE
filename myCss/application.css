@@ -1,0 +1,237 @@
+/**Functional color variables **/
+/**set casading order 1st for global dependcies**/
+@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300italic|Arvo|Tangerine");
+ul li {
+  list-style: none; }
+
+.panel {
+  margin: 0 auto;
+  border: 5px solid #D87C63;
+  border-radius: 1.25em;
+  background-color: transparent;
+  -webkit-box-shadow: 10px 10px 10px 6px #333;
+  -moz-box-shadow: 10px 10px 10px 6px #333;
+  box-shadow: 10px 10px 10px 6px #333; }
+
+#fifthModal {
+  background-image: url(../img/firefox.jpg);
+  background-position: bottom;
+  background-size: auto;
+  background-repeat: no-repeat; }
+
+.reveal-modal {
+  background-color: #FFFDF4;
+  color: #080110; }
+
+.button-group {
+  display: inline-block; }
+
+.top-bar {
+  min-height: 1.875em; }
+
+.flex-container {
+  -webkit-display: flex;
+  display: flex;
+  flex-flow: row wrap;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  min-height: 100px;
+  background-color: bisque; }
+
+.flex-b {
+  -webkit-flex-grow: 2;
+  flex-grow: 2; }
+
+.icn-toggle {
+  position: relative;
+  display: inline-block;
+  width: 1.5em;
+  height: 0.75em;
+  border-top: solid 0.3125em #60666c; }
+
+html,
+body {
+  background: linear-gradient(45deg, #FFFDF4, #DA6A41, transparent 100%);
+  background-size: cover;
+  background-repeat: repeat; }
+
+div.logo {
+  width: 25%; }
+
+#overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7); }
+
+#overlay img {
+  margin-top: 1.5%; }
+
+#overlay p {
+  color: white; }
+
+/*********************
+    About | Contact Page
+**********************/
+#contact-info {
+  margin: 0 auto; }
+
+#mail,
+#tel,
+#twitter {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0.625em;
+  color: #6A442E; }
+
+#about-info {
+  color: #080110; }
+
+/*********************
+    Portfolio Pages
+**********************/
+.slick-slide {
+  min-height: 350px; }
+
+.slick-slide img {
+  margin: 0 auto;
+  width: 100%;
+  max-height: 21.875em; }
+
+/*Grid*/
+.grid-full {
+  width: 100%;
+  float: left; }
+
+.grid-half {
+  width: 50%;
+  float: left; }
+
+.grid-third {
+  width: 27.33333%;
+  margin: 0 3%;
+  float: left; }
+
+.grid-fourth {
+  width: 25%;
+  float: left; }
+
+.grid-fifth {
+  width: 20%;
+  float: left; }
+
+#desc {
+  margin: 0.625em;
+  padding: 0.625em;
+  font-size: 1.125em; }
+
+.lightbox {
+  background: rgba(1, 1, 1, 0.6);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  text-align: center; }
+
+.lightbox img {
+  width: 43.75em;
+  height: 28.125em;
+  margin-top: 10%; }
+
+.lightbox p {
+  color: cornsilk; }
+
+/* ********************
+    Avenue Plaza Page
+**********************/
+div.iframe {
+  margin: 0 auto;
+  max-width: 1000px; }
+
+.panel, #overlay img, #about-info, div.iframe, footer, header {
+  text-align: center; }
+
+.srt {
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  border: 0;
+  position: absolute; }
+
+header {
+  margin-top: 2.1875em;
+  min-height: auto;
+  border-radius: 1.25em;
+  background: url(../img/MachuPicchi2.jpg);
+  background-size: cover;
+  -webkit-filter: drop-shadow(10px 10px 10px 6px #333);
+  filter: drop-shadow(10px 10px 10px 6px #333); }
+
+header h1,
+header h2,
+header h3 {
+  color: #9966CC; }
+
+.slick-prev::before,
+.slick-next::before {
+  font-size: 40px;
+  color: white; }
+
+slick-prev,
+.slick-next {
+  width: 40px;
+  height: 40px;
+  padding: 15px; }
+
+[class*="fi-"] {
+  display: block;
+  text-align: center;
+  font-size: 1.5em; }
+
+i.fi-codepen img {
+  width: 1.5em;
+  height: 1.5em; }
+
+/* .fi-codePen {
+  width: 120px;
+   required to center
+
+  height: 120px;
+}
+
+.outer-ring {
+  fill: black;
+}
+
+.inner-box {
+  fill: black;
+}
+
+body {
+  text-align: center;
+} */
+body {
+  font-family: "Arvo", "Source Sans Pro", sans-serif; }
+
+header h2,
+header h3,
+footer h4,
+p.git {
+  font-size: 3em;
+  font-family: "Tangerine", "Source Sans Pro", sans-serif; }
+
+header h2,
+header h3 {
+  border: 0.15625em solid #FFFDF4;
+  border-radius: 0.15625em;
+  background-color: #D9B99B; }
+
+/*# sourceMappingURL=application.css.map */
