@@ -3,12 +3,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 $name = $_POST["name"];
 $email = $_POST["email"];
 $message = $_POST["message"];
-$option = $_POST["option"];
 $email_body ="";
 $email_body = $email_body . "Name: " . $name . "\n";
 $email_body = $email_body . "Email: " . $email . "\n";
 $email_body = $email_body . "Message: " . $message . "\n";
-$email_body = $email_body . "Option: " . $option . "\n";
 echo $email_body;
 // TODO: Send Email
 header("Location: CLcontact.php?status=thanks");
@@ -47,7 +45,7 @@ include("inc/header.php");
                   </table> 
                   <select>
                        <optgroup label="Group 1">
-                            <option name="option">Option 1.1</option>
+                            <option>Option 1.1</option>
                       </optgroup> 
                       <optgroup label="Group 2">
                             <option>Option 2.1</option>
