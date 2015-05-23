@@ -3,24 +3,29 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 $name = $_POST["name"];
 $email = $_POST["email"];
 $message = $_POST["message"];
+$option = $_POST["option"];
+echo $name;
+echo $email;
+echo $message;
+echo $option;
 $email_body ="";
 $email_body = $email_body . "Name: " . $name . "\n";
 $email_body = $email_body . "Email: " . $email . "\n";
-$email_body = $email_body . "Message: " . $message;
+$email_body = $email_body . "Message: " . $message . "\n";
+$email_body = $email_body . "Option: " . $option . "\n";
 echo $email_body;
-
 // TODO: Send Email
 header("Location: CLcontact.php?status=thanks");
 exit;
-    
-}
+} ?>
 
-?>
 <?php
 $pageTitle = "Conact Errin";
 $section = "contact";
 include("inc/head.php");
-include("inc/header.php"); ?>
+include("inc/header.php");
+?>
+
 <div class="section page">
     <div class="panel row">
             <?php if(isset($_GET["status"]) and $_GET["status"] == "thanks"){ ?>
@@ -46,7 +51,7 @@ include("inc/header.php"); ?>
                   </table> 
                   <select>
                        <optgroup label="Group 1">
-                            <option>Option 1.1</option>
+                            <option name="option">Option 1.1</option>
                       </optgroup> 
                       <optgroup label="Group 2">
                             <option>Option 2.1</option>
