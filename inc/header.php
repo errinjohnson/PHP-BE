@@ -23,7 +23,7 @@
                 <li class="has-dropdown">
                     <a href="#">Drop Down Menu</a>
                     <ul class="dropdown">
-                        <li class="<?php if ($pageSection == " extra1 ") { echo active; } ?>"><a href="extra1.php">Extra One</a>
+                        <li class="<?php if ($pageSection == " contact ") { echo active; } ?>"><a href="contact.php">Contact Errin</a>
                         </li>
                         <li class="<?php if ($pageSection == " extra2 ") { echo active; } ?>"><a href="extra2.php">Extra Two</a>
                         </li>
