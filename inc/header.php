@@ -23,7 +23,7 @@
                 <li class="has-dropdown">
                     <a href="#">Drop Down Menu</a>
                     <ul class="dropdown">
-                        <li class="<?php if ($pageSection == " contact ") { echo active; } ?>"><a href="contact.php">Contact Errin</a>
+                        <li class="<?php if ($pageSection == " extra 1 ") { echo active; } ?>"><a href="extra1.php">Extra One</a>
                         </li>
                         <li class="<?php if ($pageSection == " extra2 ") { echo active; } ?>"><a href="extra2.php">Extra Two</a>
                         </li>
@@ -33,7 +33,7 @@
 
             <!-- Left Nav Section -->
             <ul class="left">
-                <li class="<?php if ($pageSection == " contact ") { echo active; } ?>"><a href="contact.php">Contact Page</a>
+                <li class="<?php if ($pageSection == " contact ") { echo active; } ?>"><a href="../contact.php">Contact Page</a>
                 </li>
                 <li class="has-form">
                     <div class="row collapse">
