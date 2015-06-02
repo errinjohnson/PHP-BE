@@ -152,6 +152,9 @@ div.logo {
 div.iframe {
   margin: 0 auto;
   max-width: 1000px; }
+.wrapper {
+    text-align: center;
+}
 
 .panel, #overlay img, #about-info, div.iframe, footer, header {
   text-align: center; }
