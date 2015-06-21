@@ -33,7 +33,7 @@
 
             <!-- Left Nav Section -->
             <ul class="left">
-                <li class="<?php if ($pageSection == " contact ") { echo active; } ?>"><a href="CLcontact.php">Contact Page</a>
+                <li class="<?php if ($pageSection == " contact ") { echo active; } ?>"><a href="../contact.php">Contact Page</a>
                 </li>
                 <li class="has-form">
                     <div class="row collapse">
