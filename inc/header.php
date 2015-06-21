@@ -18,14 +18,14 @@
         <section class="top-bar-section">
             <!-- Right Nav Section -->
             <ul class="right">
-                <li class="<?php if ($pageSection == " portfolio ") { echo active; } ?>"><a href="portfolio.php">Portfolio Page</a>
+                <li class="<?php if ($pageSection == " portfolio ") { echo active; } ?>"><a href="../portfolio.php">Portfolio Page</a>
                 </li>
                 <li class="has-dropdown">
                     <a href="#">Drop Down Menu</a>
                     <ul class="dropdown">
-                        <li class="<?php if ($pageSection == " extra 1 ") { echo active; } ?>"><a href="extra1.php">Extra One</a>
+                        <li class="<?php if ($pageSection == " extra 1 ") { echo active; } ?>"><a href="index.php">Code Louisville Portfolio</a>
                         </li>
-                        <li class="<?php if ($pageSection == " extra2 ") { echo active; } ?>"><a href="extra2.php">Extra Two</a>
+                        <li class="<?php if ($pageSection == " extra2 ") { echo active; } ?>"><a href="portfolioCL.php">Code Louisville | Projects</a>
                         </li>
                     </ul>
                 </li>
@@ -33,7 +33,7 @@
 
             <!-- Left Nav Section -->
             <ul class="left">
-                <li class="<?php if ($pageSection == " contact ") { echo active; } ?>"><a href="../contact.php">Contact Page</a>
+                <li class="<?php if ($pageSection == " contact ") { echo active; } ?>"><a href="../contact.php">About | Contact Page</a>
                 </li>
                 <li class="has-form">
                     <div class="row collapse">
