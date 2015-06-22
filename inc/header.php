@@ -21,7 +21,7 @@
                 <li class="<?php if ($pageSection == " portfolio ") { echo active; } ?>"><a href="../portfolio.php">Portfolio Page</a>
                 </li>
                 <li class="has-dropdown">
-                    <a href="#">Drop Down Menu</a>
+                    <a href="#">Code Louisville</a>
                     <ul class="dropdown">
                         <li class="<?php if ($pageSection == " extra 1 ") { echo active; } ?>"><a href="index.php">Code Louisville Portfolio</a>
                         </li>
@@ -33,7 +33,7 @@
 
             <!-- Left Nav Section -->
             <ul class="left">
-                <li class="<?php if ($pageSection == " contact ") { echo active; } ?>"><a href="../contact.php">About | Contact Page</a>
+                <li><a href="../contact.php">About | Contact Page</a>
                 </li>
                 <li class="has-form">
                     <div class="row collapse">

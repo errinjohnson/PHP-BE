@@ -1,10 +1,10 @@
 <?php
 $pageTitle = "CodeLouisville PHP Project";
 $pageSection = "main";
-include('../inc/head.php');
+include('inc/head.php');
 include('inc/header.php');
 ?>
-<?php
+<div class="row wrapper"><?php
   $course = [
     "hardware" => "Mouse, Keyboard, PC | Notebook, Display",
     "level" => "beginner",
@@ -12,9 +12,10 @@ include('inc/header.php');
      "equipment" => "in-class computers",
     "classSize" => 2,
     "supplies" => "pens, paper and folders"
-  ];
+  ];?>
+</div>
 
-?>
+
 <div class="row wrapper">
 <h1>Hardware Basics</h1>
 <h3><?php echo $course["hardware"]; ?></h3>
@@ -43,6 +44,6 @@ include('inc/header.php');
 </table>
 </div>
 
-<?php include('../inc/footer.php'); ?>
-<?php include('../inc/script.php'); ?>
+<?php include('inc/footer.php'); ?>
+<?php include('inc/script.php'); ?>
 
